@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/walter_aem",
+        "create path (nt:unstructured) /content/dam/walter_aem/jcr:content",
+        "set properties on /content/dam/walter_aem/jcr:content\n  set cq:conf{String} to /conf/walter_aem\n  set jcr:title{String} to \"Walter AEM\"\nend"
+    ]
+}
